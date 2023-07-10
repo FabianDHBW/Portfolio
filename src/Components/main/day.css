@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.add-button-div {
+    width: 50%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    background-color: white;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: gray;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.add-button:hover {
+    background-color: lightgray;
+}
+
+.todo-div {
+    width: 50%;
+    height: 70px;
+    margin-bottom: 10px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin: 0px;
+    height: 50%;
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+input[type="checkbox"]:checked {
+    filter: hue-rotate(300deg);
+}
+
+input[type="text"] {
+    margin: 0px;
+    height: 50%;
+    width: 82%;
+    margin-right: 2%;
+    font-size: 25px;
+    padding-bottom: 0.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    border: none;
+    border-bottom: 2px solid darkgray;
+}
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+    width: 5%;
+}
+
+.delete-button:hover {
+    background-color: white;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
